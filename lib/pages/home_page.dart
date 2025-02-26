@@ -40,6 +40,7 @@ class _HomePageState extends State<HomePage> {
             
             setState(() {
               _isauthenticated = didAuthenticate;
+              print("$didAuthenticate");
             });
           } catch (e) {
             print(e);
@@ -51,9 +52,9 @@ class _HomePageState extends State<HomePage> {
         });
       }
 
-      setState(() {
-        _isauthenticated = !_isauthenticated;
-      });
+      // setState(() {
+      //   _isauthenticated = !_isauthenticated;
+      // });
     },
       child: Icon(_isauthenticated ? Icons.lock : Icons.lock_open, ),
     );
