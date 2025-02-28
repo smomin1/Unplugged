@@ -1,6 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <queries>
+        <package android:name="com.instagram.android" /> <!-- Instagram -->
+        <package android:name="com.facebook.katana" /> <!-- Facebook -->
+        <package android:name="com.google.android.youtube" /> <!-- YouTube -->
+        <package android:name="com.snapchat.android" /> <!-- Snapchat -->
+    </queries>
 
     <application
         android:label="unplugged"
@@ -33,6 +39,8 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and

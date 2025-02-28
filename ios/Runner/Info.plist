@@ -47,5 +47,12 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>instagram</string> <!-- Instagram URL scheme -->
+        <string>fb</string> <!-- Facebook URL scheme -->
+        <string>youtube</string> <!-- YouTube URL scheme -->
+        <string>snapchat</string> <!-- Snapchat URL scheme -->
+    </array>
 </dict>
 </plist>
