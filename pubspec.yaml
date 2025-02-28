@@ -67,6 +67,8 @@ flutter:
     - assets/images/facebook.png
     - assets/images/youtube.png
     - assets/images/snapchat.png
+    - assets/images/lock.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
